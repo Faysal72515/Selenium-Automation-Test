@@ -1,0 +1,82 @@
+{
+  "id": "a56af627-4af3-4290-9156-cf5e2e0b4810",
+  "version": "2.0",
+  "name": "First_test_case_by_selenium",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "e0153af4-1d4a-47c2-aaac-37233a9a8977",
+    "name": "first_test",
+    "commands": [{
+      "id": "018aaac2-f4e5-4e7c-8805-da823eb9a292",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "443e0a3b-e233-423d-90b8-4a9308d65285",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "730x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d809158-9067-4cc2-8cf1-459678b7e38a",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "tu"
+    }, {
+      "id": "cffb48b5-e430-421f-aa9e-1ac0a5763c29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl .wM6W7d > span",
+      "targets": [
+        ["css=.sbhl .wM6W7d > span", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'tutorialspoint')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0975a98b-5d44-4e21-8b12-f340fc0dd9da",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Tutorialspoint')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7057fae-d351-474b-99b6-bf4d95a5924e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Tutorialspoint')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b926bcf5-ff59-4f55-81a1-4f59262847ea",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e0153af4-1d4a-47c2-aaac-37233a9a8977"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

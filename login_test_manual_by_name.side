@@ -1,0 +1,56 @@
+{
+  "id": "f87d7ae9-e882-40bc-88b8-2d47fea8dd4f",
+  "version": "2.0",
+  "name": "login_test_manual_by_name",
+  "url": "https://www.google.com/",
+  "tests": [{
+    "id": "8b381a16-32a5-4b63-898e-76f81af4295c",
+    "name": "search_test",
+    "commands": [{
+      "id": "3d6d6b01-0c7c-45e8-8dd2-89e40fee2c07",
+      "comment": "",
+      "command": "open",
+      "target": "http://eview.infinityfreeapp.com/view/signin.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64ee036a-d548-4b46-8e7b-9a450fdcb81b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=email",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "985ae8ee-29d3-4fa6-b6a1-3a0a6f8c8c52",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [],
+      "value": "abir123@gmail.com"
+    }, {
+      "id": "c88da952-bec6-4641-b208-b47937afce4c",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "654321"
+    }, {
+      "id": "b45ccfcc-ca72-4110-b02c-2137c482f72f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=signin",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e4d6032f-00f5-4809-8c99-276b7551fb9f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8b381a16-32a5-4b63-898e-76f81af4295c"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

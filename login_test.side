@@ -1,0 +1,141 @@
+{
+  "id": "2b3c87a7-34e3-454e-bbac-d0de1107e15a",
+  "version": "2.0",
+  "name": "login_test",
+  "url": "http://eview.infinityfreeapp.com/",
+  "tests": [{
+    "id": "1c2f8016-c3df-49d1-a363-243313b994bc",
+    "name": "test_login",
+    "commands": [{
+      "id": "25336b21-3c76-4d80-ba52-24c2964504cf",
+      "comment": "",
+      "command": "open",
+      "target": "http://eview.infinityfreeapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9048f69-25fe-4339-81a9-e482e1426701",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03a0e21a-7f1f-4a13-9ce5-3b6da8e5c327",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(5) b",
+      "targets": [
+        ["css=.nav-item:nth-child(5) b", "css:finder"],
+        ["xpath=//div[@id='collapsibleNavbar']/ul/li[5]/a/b", "xpath:idRelative"],
+        ["xpath=//li[5]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Signin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fac26473-0546-4d45-93b7-22210b2cbff1",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=td > #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='signin']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf6b576f-a2f1-4c6e-b234-e875a6bcb66c",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=td > #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='signin']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c7e8367-41ed-480f-b0e0-3026f04df2f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=td > #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='signin']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "abir123@gmail.com"
+    }, {
+      "id": "9f6d0e40-b006-44da-922e-0b35a0c7a07e",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=td > #password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signin']/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fbc0fef-60c2-43cd-9a2f-1ea1381fea01",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=td > #password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signin']/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "654321"
+    }, {
+      "id": "79d2d303-d5c7-4afe-baa1-9c50b45ee8bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(3) > input",
+      "targets": [
+        ["css=td:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='signin']/table/tbody/tr[3]/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5a8641e-64da-42d6-8579-509c75ac8ef2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) b",
+      "targets": [
+        ["css=.nav-item:nth-child(3) b", "css:finder"],
+        ["xpath=//div[@id='collapsibleNavbar']/ul/li[3]/a/b", "xpath:idRelative"],
+        ["xpath=//li[3]/a/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7a76bb7c-9512-48b5-9403-f593642e23d8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1c2f8016-c3df-49d1-a363-243313b994bc"]
+  }],
+  "urls": ["http://eview.infinityfreeapp.com/"],
+  "plugins": []
+}
